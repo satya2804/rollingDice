@@ -1,0 +1,59 @@
+#container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: bold;
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+    background-image: url(snakeandladder.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column; /* Align items and justify content vertically */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-weight: bold;
+    margin: 0; /* Remove default body margin */
+}
+
+button {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(78, 66, 234);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover,
+button:active {
+    background-color: aqua;
+}
+
+input {
+    font-size: 2rem; /* Adjust font size as needed */
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diceResult {
+    margin: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#diceImages img {
+    width: 150px;
+    margin: 5px;
+}
+#diceadd{
+    font-size: 40px;
+}
